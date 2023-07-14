@@ -25,7 +25,7 @@ const About = () => {
                 </div>
                 {/* rightside */}
                 <div className='md:w-1/2 my-8'>
-                    <h4 className='text-2xl font-bold mb-8'>My Skills</h4>
+                    <h4 className='text-2xl    font-bold mb-8'>My Skills</h4>
                     <div className='flex flex-wrap gap-3 md:w-10/12'>
                         {
                             skills.map(skill => <p key={skill.id} className='bg-slate-300 text-light py-2 px-4 rounded'>{skill.title}</p>)
@@ -34,7 +34,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-    );
+    ); 
 };
 
 export default About;
