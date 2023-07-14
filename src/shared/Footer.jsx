@@ -20,9 +20,9 @@ const Footer = () => {
         <div className='my-3'>
             <h4 className='text-white font-bold text-2xl tracking-wide'>SOCIAL</h4>
             <div className='mt-5 flex gap-7 '>
-              <a href=''className='ml-1'><img src={linkedin} alt='' className='w-7 h-7'/></a>
-              <a href=''className='ml-1'><img src={twitter} alt='' className='w-7 h-7'/></a>
-              <a href=''className='ml-1'><img src={github} alt='' className='w-7 h-7'/></a>
+              <a href='https://www.linkedin.com/in/prabhatyadav27/'className='ml-1'><img src={linkedin} alt='' className='w-7 h-7'/></a>
+              <a href='https://twitter.com/Prabhat_yadav_'className='ml-1'><img src={twitter} alt='' className='w-7 h-7'/></a>
+              <a href='https://github.com/PrabhatYadav-27'className='ml-1'><img src={github} alt='' className='w-7 h-7'/></a>
             </div>
         </div>
 

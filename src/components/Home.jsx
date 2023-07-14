@@ -18,7 +18,7 @@ const Home = () => {
       variants={fadeIn('up',0.3)}
       initial='hidden'
       whileInView={"show"}
-      viewport={{once:false,amount:0.7}}>
+      viewport={{once:false,amount:0.5}}>
         <h1 className='text-primary text-5xl font-extrabold tracking-wider mb-8'>HEY, I'M PRABHAT YADAV</h1>
 
         <TypeAnimation
@@ -46,17 +46,17 @@ const Home = () => {
       {/* social */}
       <div className='bg-white w-20 rounded py-1 px-2 absolute left-0 top-48 hidden md:block'>
         <div className='py-1'>
-          <a href="" className='p-3 hover:bg-slate-400 block rounded transition-all duration-500'>
+          <a href="https://www.linkedin.com/in/prabhatyadav27/" className='p-3 hover:bg-slate-400 block rounded transition-all duration-500'>
             <img src={Linkedin} alt='' className='w-10 h-10'/>
           </a>
         </div>
         <div className='py-1'>
-          <a href="" className='p-3 hover:bg-slate-400 block rounded transition-all duration-500'>
+          <a href="https://twitter.com/Prabhat_yadav_" className='p-3 hover:bg-slate-400 block rounded transition-all duration-500'>
             <img src={Twitter} alt='' className='w-10 h-10'/>
           </a>
         </div>
         <div className='py-1'>
-          <a href="" className='p-3 hover:bg-slate-400 block rounded transition-all duration-500'>
+          <a href="https://github.com/PrabhatYadav-27" className='p-3 hover:bg-slate-400 block rounded transition-all duration-500'>
             <img src={GitHub} alt='' className='w-10 h-10'/>
           </a>
         </div>
