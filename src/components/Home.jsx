@@ -5,10 +5,20 @@ import Linkedin from '../assets/socials/linkedin.svg';
 import Twitter from '../assets/socials/twitter.svg'; 
 import GitHub from '../assets/socials/github.svg'; 
 
+//motion animation
+import{motion} from 'framer-motion';
+//variant
+import{fadeIn} from '../variants';
+
 const Home = () => {
+  
   return (
-    <div className=' hero h-screen flex items-center justify-center'>
-      <div className='text-center md:w-1/2'>
+    <div className=' hero h-screen flex items-center justify-center' id='home'>
+      < motion.div className='text-center md:w-1/2'
+      variants={fadeIn('up',0.3)}
+      initial='hidden'
+      whileInView={"show"}
+      viewport={{once:false,amount:0.7}}>
         <h1 className='text-primary text-5xl font-extrabold tracking-wider mb-8'>HEY, I'M PRABHAT YADAV</h1>
 
         <TypeAnimation
@@ -32,7 +42,7 @@ const Home = () => {
         <p className='text-light text-xl my-8'> I'm a passionate and skilled front-end developer with a strong focus on creating engaging and user-friendly web experiences.
            </p>
         <button className='btn py-4 px-10'>Projects</button>
-      </div>
+      </motion.div>
       {/* social */}
       <div className='bg-white w-20 rounded py-1 px-2 absolute left-0 top-48 hidden md:block'>
         <div className='py-1'>
