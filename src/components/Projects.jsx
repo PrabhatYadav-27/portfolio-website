@@ -11,7 +11,7 @@ import{fadeIn} from '../variants';
 
 const Projects = () => {
     return (
-        <div className='max-w-7xl ms-auto md:pu-8 px-7' id='projects'>
+        <div className='max-w-7xl mx-auto md:py-8 px-7' id='projects'>
             <Headline title={'PROJECTS'} subtitle={'Here you will find some of my Projects where I have put forth my knowledge and skills to showcase the work.'} />
 
             <div>

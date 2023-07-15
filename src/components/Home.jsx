@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { TypeAnimation } from 'react-type-animation'; 
+import { TypeAnimation } from 'react-type-animation';
 import Linkedin from '../assets/socials/linkedin.svg'; 
 import Twitter from '../assets/socials/twitter.svg'; 
 import GitHub from '../assets/socials/github.svg'; 
@@ -41,7 +41,12 @@ const Home = () => {
     />
         <p className='text-light text-xl my-8'> I'm a passionate and skilled front-end developer with a strong focus on creating engaging and user-friendly web experiences.
            </p>
-        <button className='btn py-4 px-10'>Projects</button>
+         
+        
+          <button className='btn py-4 px-10'>Projects</button>
+        
+
+         
       </motion.div>
       {/* social */}
       <div className='bg-white w-20 rounded py-1 px-2 absolute left-0 top-48 hidden md:block'>
