@@ -42,8 +42,10 @@ const Home = () => {
         <p className='text-light text-xl my-8'> I'm a passionate and skilled front-end developer with a strong focus on creating engaging and user-friendly web experiences.
            </p>
          
+        {/* <link src="Projects.jsx">
+        <button className='btn py-4 px-10'>Projects</button>  
+        </link> */}
         
-          <button className='btn py-4 px-10'>Projects</button>
         
 
          
